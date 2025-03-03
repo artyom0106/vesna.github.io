@@ -1,0 +1,22 @@
+@charset "windows-1251";
+/* CSS Document */
+
+.background {
+background-image:url("929163_fony-dlya-slaida-cvety.png");
+background-repeat:no-repeat;
+background-size:contain;
+background-attachment:fixed;
+}
+.vesna {
+font-size:60px;
+font-family:"Comic Sans MS";
+}
+.image {
+border-radius: 20px 20px;
+transition: box-shadow 0.3s ease;
+}
+.image:hover {
+box-shadow: 0 0 5px;
+}
+
+body{margin-top:170px;-webkit-user-select: none;}
